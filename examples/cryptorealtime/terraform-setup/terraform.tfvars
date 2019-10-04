@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-project_id = "testprojivo" // ***CHANGE THIS***
-bucket_name = "cryptorealtime-demo-staging123" // ***CHANGE THIS*** make this unique
-credsfile = "/Users/igalic/Downloads/testprojivo-13e8ed7eb6df.json" // ***CHANGE THIS***
+project_id = "htwm11ws2019" // ***CHANGE THIS***
+bucket_name = "cryptorealtime-htwm11ws2019" // ***CHANGE THIS*** make this unique
+credsfile = "/Users/bochmann/.gcs/key/htwm11ws2019-d5331c22576b.json" // ***CHANGE THIS***
 
 // OPTIONAL
 region = "us-central1"
