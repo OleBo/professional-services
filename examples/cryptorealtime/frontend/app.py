@@ -31,8 +31,9 @@ from google.cloud.bigtable.row_set import RowSet
 from google.cloud.bigtable.row_set import RowRange
 from collections import defaultdict
 
+stat_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
 tmpl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
-app = Flask(__name__, template_folder=tmpl_dir)
+app = Flask(__name__, template_folder=tmpl_dir, static_folder=stat_dir)
 
 
 def query_builder():
