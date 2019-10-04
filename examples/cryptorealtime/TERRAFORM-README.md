@@ -14,7 +14,7 @@
 ### Setup:
 - Open the Terraform Shell and clone the project
 ```console 
-git clone https://github.com/GoogleCloudPlatform/professional-services
+git clone https://github.com/OleBo/professional-services
 cd professional-services/examples/cryptorealtime/terraform-setup/
 ```
 
